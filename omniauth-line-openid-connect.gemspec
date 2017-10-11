@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tzmfreedom"]
   spec.email         = ["makoto_tajitsu@hotmail.co.jp"]
 
-  spec.summary       = %q{Omniauth Provider for LINE}
-  spec.description   = %q{Omniauth Provider for LINE}
+  spec.summary       = %q{OmniAuth Provider for LINE with OpenID Connect}
+  spec.description   = %q{OmniAuth Provider for LINE with OpenID Connect}
   spec.homepage      = "https://github.com/tzmfreedom/omniauth-line-openid-connect"
   spec.license       = "MIT"
 
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "omniauth_openid_connect"
-  spec.add_development_dependency "bundler", "~> 1.16.a"
+  spec.add_development_dependency "bundler", "~> 1.15.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
