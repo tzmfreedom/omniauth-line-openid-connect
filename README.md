@@ -1,6 +1,6 @@
 # OmniAuth::LineOpenidConnect
 
-Omniauth Provider for [LINE](https://line.me/)
+Omniauth Provider for [LINE](https://line.me/). 
 This provider uses openid connect protocol for authentication process.
 
 ## Installation
