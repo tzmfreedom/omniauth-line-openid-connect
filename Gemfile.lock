@@ -103,10 +103,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16.a)
+  bundler (~> 1.15.0)
   omniauth-line-openid-connect!
   rake (~> 10.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.15.4
